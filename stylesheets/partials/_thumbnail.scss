@@ -1,0 +1,84 @@
+@import "colors";
+@import "typography";
+
+
+.all-thumbnail-items {
+    h1 {
+      margin:5px 0px 10px;
+      font-size: 20px;
+    }
+    h2 {
+      margin: 0px;
+      color:$grey;
+      text-align: left;
+    }
+    hr {
+      clear: both;
+      margin-top: 10px;
+    }
+}
+
+.thumbnail-list-item {
+  clear:both;
+  overflow: hidden;
+  border-bottom: 1px solid $bordergrey;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.thumbnail-img {
+  float: left;
+
+
+  img {
+    height: 150px;
+  }
+
+ }
+
+ .thumbnail-text {
+   float:left;
+   padding-left: 20px;
+
+  .description {
+    
+  }
+
+
+
+  .user-img {
+      border-radius:100%;
+      overflow: hidden;
+      background: grey;
+      width:40px;
+      height: 40px;
+      float: left;
+      margin: 10px 10px 0px 0px;
+
+
+      img {
+        height: 60px;
+      }
+  }
+
+
+
+   .ratingstars {
+     display: inline;
+     float: left;
+     margin-top: 20px;
+
+     .fa-star {
+       color: $star;
+     }
+   }
+
+}
+ .thumbnail-price {
+ float: right;
+
+ }
+
+ .bottom {
+   padding: 100px;
+ }

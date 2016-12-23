@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+header {
+  background-color: #402A72;
+  height: 100px;
+  overflow: hidden; }
+  header img {
+    height: 45px;
+    color: white;
+    margin-top: 27.5px;
+    margin-left: 27.5px; }
+  header .header-icons {
+    float: right;
+    margin-right: 27.5px; }
+
+main .hero {
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  padding: 200px 0; }
+main .hero div {
+  margin: 0 auto;
+  width: 600px; }
+
+section {
+  font-family: 'Roboto', sans-serif; }
+  section .section-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap; }
+    section .section-wrapper .cat-wrap {
+      width: 30%;
+      float: left;
+      margin: 20px 1.66% 0; }
+      section .section-wrapper .cat-wrap .cat-title {
+        background-color: #B8B7BC;
+        padding: 10px;
+        overflow: hidden; }
+        section .section-wrapper .cat-wrap .cat-title .icon {
+          width: 25%;
+          float: left;
+          text-align: center; }
+          section .section-wrapper .cat-wrap .cat-title .icon img {
+            width: 34px; }
+        section .section-wrapper .cat-wrap .cat-title .heading {
+          width: 75%;
+          float: left;
+          font-family: 'Roboto', sans-serif; }
+          section .section-wrapper .cat-wrap .cat-title .heading h2 {
+            margin: 0;
+            font-family: 'Roboto', sans-serif; }
+      section .section-wrapper .cat-wrap .sub-cat {
+        background-color: #F4F4F4;
+        padding: 10px; }
+      section .section-wrapper .cat-wrap .sub-cat a {
+        display: block;
+        padding-left: 30px;
+        font-size: 25px;
+        color: #424242;
+        font-family: 'Roboto', sans-serif; }
+
+@media (min-width 501px) and (max-width 768px) {
+  .cat-wrap {
+    width: 48%;
+    float: left;
+    margin: 20px 4% 0; } }
+
+/*# sourceMappingURL=main.css.map */
