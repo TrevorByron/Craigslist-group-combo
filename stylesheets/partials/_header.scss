@@ -1,7 +1,6 @@
 @import "colors";
 
 header {
-overflow: hidden;
 background-color: $purple;
 text-align: center;
 padding: 27px 20px;
@@ -29,4 +28,7 @@ padding: 27px 20px;
 
    }
  }
+}
+.home-header {
+  overflow: hidden;
 }

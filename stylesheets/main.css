@@ -95,7 +95,6 @@ a:hover {
   color: #016e90; }
 
 header {
-  overflow: hidden;
   background-color: #402a72;
   text-align: center;
   padding: 27px 20px; }
@@ -117,6 +116,9 @@ header {
       font-size: 46px;
       position: relative;
       top: 2px; }
+
+.home-header {
+  overflow: hidden; }
 
 .breadcrum {
   border-bottom: 1px solid #eee;
@@ -542,6 +544,9 @@ html {
     float: none; } }
 @media (min-width: 920px) {
   #searchbar-small {
+    display: none; }
+
+  .search-holder {
     display: none; } }
 html {
   box-sizing: border-box; }
